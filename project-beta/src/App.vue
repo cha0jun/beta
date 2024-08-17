@@ -1,5 +1,7 @@
 <script setup lang="ts">
+import CustomCard from './components/CustomCard.vue';
 import HelloWorld from './components/HelloWorld.vue'
+import Paragraph from './components/Paragraph.vue';
 </script>
 
 <template>
@@ -12,6 +14,8 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <Paragraph title="Test title1" content="This is my paragraph" />
+  <CustomCard title="Test Card" />
 </template>
 
 <style scoped>
